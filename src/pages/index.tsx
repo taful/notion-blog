@@ -2,7 +2,7 @@ import Link from 'next/link'
 import Header from '../components/header'
 import ExtLink from '../components/ext-link'
 import Features from '../components/features'
-import Facebook from '../components/facebook'
+import Facebook from '../components/svgs/facebook'
 import GitHub from '../components/svgs/github'
 import sharedStyles from '../styles/shared.module.css'
 

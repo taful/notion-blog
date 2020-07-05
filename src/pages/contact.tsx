@@ -13,16 +13,16 @@ const contacts = [
   {
     Comp: Twitter,
     alt: 'twitter icon',
-    link: 'https://twitter.com/_ijjk',
+    link: 'https://twitter.com/htaful',
   },
   {
     Comp: GitHub,
     alt: 'github icon',
-    link: 'https://github.com/ijjk',
+    link: 'https://github.com/taful',
   },
   {
     Comp: Facebook,
-    alt: 'Facebook icon',
+    alt: 'facebook icon',
     link: 'https://www.facebook.com/hamlet.taful',
   },
 //  {
