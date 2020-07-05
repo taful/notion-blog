@@ -21,15 +21,15 @@ const contacts = [
     link: 'https://github.com/ijjk',
   },
   {
-    Comp: LinkedIn,
-    alt: 'linkedin icon',
-    link: 'https://www.linkedin.com/in/jj-kasper-0b5392166/',
+    Comp: Facebook,
+    alt: 'Facebook icon',
+    link: 'https://www.facebook.com/hamlet.taful',
   },
-  {
-    Comp: Envelope,
-    alt: 'envelope icon',
-    link: 'mailto:jj@jjsweb.site?subject=Notion Blog',
-  },
+//  {
+//    Comp: Envelope,
+//    alt: 'envelope icon',
+//    link: 'mailto:jj@jjsweb.site?subject=Notion Blog',
+//  },
 ]
 
 export default () => (
