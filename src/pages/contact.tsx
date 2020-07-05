@@ -6,8 +6,9 @@ import contactStyles from '../styles/contact.module.css'
 
 import GitHub from '../components/svgs/github'
 import Twitter from '../components/svgs/twitter'
-import Envelope from '../components/svgs/envelope'
-import LinkedIn from '../components/svgs/linkedin'
+//import Envelope from '../components/svgs/envelope'
+//import LinkedIn from '../components/svgs/linkedin'
+import Facebook from '../components/svgs/facebook'
 
 const contacts = [
   {
