@@ -41,7 +41,7 @@ export default () => (
         <img src="/avatar.png" alt="avatar with letters taful"/>
       </div>
 
-      <h3 style={{ marginTop: 0 }}>Contact</h3>
+      <h2 style={{ marginTop: 0 }}>Contact</h2>
 
       <div className={contactStyles.name}>
 	  hamlet @{' '} TAFUL
