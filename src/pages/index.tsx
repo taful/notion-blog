@@ -5,28 +5,24 @@ import Features from '../components/features'
 import Facebook from '../components/svgs/facebook'
 import GitHub from '../components/svgs/github'
 import sharedStyles from '../styles/shared.module.css'
+import Twitter from '../components/svgs/twitter'
 
 const contacts = [
-   {
-     Comp: Twitter,
-     alt: 'twitter icon',
-     link: 'https://twitter.com/puhitaku',
-   },
-   {
-     Comp: Facebook,
-     alt: 'facebook icon',
-     link: 'https://www.facebook.com/puhitaku/',
-   },
-   {
-     Comp: GitHub,
-     alt: 'github icon',
-     link: 'https://github.com/puhitaku',
-   },
-   {
-     Comp: LinkedIn,
-     alt: 'linkedin icon',
-     link: 'https://www.linkedin.com/in/takumi-sueda-110026195/',
-   },
+  {
+    Comp: Twitter,
+    alt: 'twitter icon',
+    link: 'https://twitter.com/htaful',
+  },
+  {
+    Comp: GitHub,
+    alt: 'github icon',
+    link: 'https://github.com/taful',
+  },
+  {
+    Comp: Facebook,
+    alt: 'facebook icon',
+    link: 'https://www.facebook.com/hamlet.taful',
+  },
 ]
    
 export default () => (
