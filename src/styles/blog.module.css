@@ -36,6 +36,7 @@
   border-radius: 5px;
   transition: all 0.2s ease 0s;
 }
+
 .escapePreview:hover {
   background-color: white;
   color: black;
@@ -47,9 +48,8 @@
   display: inline-flex;
   align-items: center;
   justify-content: flex-start;
-  font-family: var(--font-mono);
-  font-weight: 600;
 }
+
 .draftBadge {
   border-radius: 16px;
   background-color: black;
@@ -67,18 +67,14 @@
 .postPreview {
   max-width: 600px;
   margin: 10px auto;
-  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.8);
 }
 
 .postPreview:last-child {
   border-bottom: none;
 }
 
-.postPreview h3 {
-  display: inline;
-  margin-bottom: 0;
-}
-
+.postPreview h3,
 .post h1 {
   margin-bottom: 0;
 }
@@ -89,15 +85,14 @@
 
 .post :global(h2),
 .post :global(h3) {
-  margin: 2rem 0 1.5rem 0;
+  margin: 3rem 0 1.5rem 0;
 }
 
 .post :global(video),
-.post :global(img) {
-  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.4);
-}
+.post :global(img),
 .post :global(.asset-wrapper) {
-  margin: 3rem auto 2rem;
+  margin: 2rem auto;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.3);
   max-width: 100%;
   display: block;
 }
@@ -123,22 +118,13 @@
 }
 
 .postPreview :global(.posted) {
-  margin: 0.5em 0 0.5em 1em;
-}
-
-.postedDate {
-  margin-right: 1rem;
+  margin-bottom: 0.5em;
 }
 
 .post {
   max-width: calc(600px + 10%);
   margin: 0 auto;
   padding: 5%;
-}
-
-.post :global(.posted) {
-  font-family: var(--font-mono);
-  margin: 1rem 0 1rem;
 }
 
 .post :global(hr) {
@@ -149,8 +135,42 @@
   margin-top: 0;
 }
 
-.post :global(ul, li) {
-  font-family: var(--font-mono), var(--font-ja-gothic);
-  color: #555;
-  line-height: 1.7;
-  }
+.tableOfContents {
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  padding: 1em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.tableOfContents span {
+  font-size: 0.9em;
+  font-weight: 600;
+}
+
+.tableOfContents .headings {
+  margin: 10px 0;
+  padding: 0;
+  list-style: none;
+}
+
+.tableOfContents .headings li a {
+  color: #666666;
+  text-decoration: none;
+  border-bottom: 1px dotted #bebebe;
+  padding-bottom: 1px;
+  font-size: 0.8em;
+  line-height: 2em;
+}
+
+.tableOfContents .heading1 {
+  padding-left: 1em;
+}
+
+.tableOfContents .heading2 {
+  padding-left: 2em;
+}
+
+.tableOfContents .heading3 {
+  padding-left: 3em;
+}
