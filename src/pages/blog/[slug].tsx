@@ -28,7 +28,7 @@ export async function getStaticProps({ params: { slug }, preview }) {
         redirect: '/blog',
         preview: false,
       },
-      stale-while-revalidate: 5,
+      unstable_revalidate: 30,
     }
   }
   const postData = await getPageData(post.id)
@@ -64,7 +64,7 @@ export async function getStaticProps({ params: { slug }, preview }) {
       post,
       preview: preview || false,
     },
-    stale-while-revalidate: 10,
+    unstable_revalidate: 30,
   }
 }
 
