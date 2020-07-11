@@ -21,11 +21,11 @@
   display: block;
   text-align: center;
   margin: 1rem 0;
-  height: 160px;
+  height: 120px;
 }
 
 .avatar img {
-  height: 160px;
+  height: 120px;
 }
 
 .name {
